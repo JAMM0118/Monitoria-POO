@@ -5,12 +5,29 @@ using namespace std;
 int main(){
   int numero, unidades,centenas, unidad_de_mil, decenas;
 
-  cout<<"Digite un numero: "; cin>>numero; 
+  // 1 - 3999
 
-  unidades = numero%10; numero /= 10;
-  decenas = numero%10; numero /=10; 
-  centenas = numero%10 ; numero /=10 ;
-  unidad_de_mil = numero%10 ; numero /=10; 
+  cout<<"Digite un numero: "; cin>>numero; 
+ 
+ //1920
+
+  unidades = numero%10; 
+  
+  //1920 % 10 = 1
+
+  numero /= 10;
+  
+  //920
+ 
+  decenas = numero%10; 
+ 
+  numero /=10; 
+  
+  centenas = numero%10 ; 
+  numero /=10 ;
+  
+  unidad_de_mil = numero%10 ; 
+  numero /=10; 
 
   switch (unidad_de_mil){
     case 1: cout<<"M" ; break;
@@ -50,4 +67,6 @@ int main(){
     case 8: cout<<"VIII" ; break;
     case 9: cout<<"IX" ; break;
   }
+
+  return 0;
 }

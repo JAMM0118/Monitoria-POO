@@ -1,12 +1,16 @@
 #include<iostream>
 #include<math.h>
+#include<stdlib.h>
 using namespace std;
 
 int number, par_impar, opcion ;
 float proceso;
 
 int main(){
-    cout<<"\t Elige una opcion"<<endl;
+
+    while(true){
+    cout<<"\n";   
+    cout<<"\tElige una opcion"<<endl;
     cout<<"1. Calcular el cubo de un numero"<<endl;
     cout<<"2. Verificar si un numero es par o impar"<<endl;
     cout<<"3. Salir"<<endl;
@@ -20,14 +24,14 @@ int main(){
 
     case 2: cout<<"Digite el numero a verificar: "; cin>>par_impar; 
             if (par_impar%2 == 0 ){
-                cout<<"El numero ingresado es par";
+                cout<<"El numero ingresado es par"<<endl; break;
             }
             else{
-                cout<<"El numero ingresado es impar"; break;
+                cout<<"El numero ingresado es impar"<<endl; break;
             }
 
-    case 3: break;
-    }
+    case 3: exit(0); break;
+    }}
 
     return 0;
 }
