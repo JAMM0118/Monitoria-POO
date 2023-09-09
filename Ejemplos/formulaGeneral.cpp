@@ -4,7 +4,8 @@ using namespace std;
 
 int main(){
 
-    int a,b,c,operacion2,operacion1;
+    int a,b,c;
+    float operacion2,operacion1;
 
     cout<<"Digite el valor de a: "; cin>>a;
     cout<<"Digite el valor de b: "; cin>>b;

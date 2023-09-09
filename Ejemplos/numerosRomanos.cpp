@@ -3,7 +3,7 @@
 using namespace std;
 
 int main(){
-  int numero, unidades,centenas, unidad_de_mil, decenas;
+  int numero, unidades, decenas, centenas, unidad_de_mil;
 
   // 1 - 3999
 

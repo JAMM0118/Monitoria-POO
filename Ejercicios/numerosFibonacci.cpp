@@ -1,6 +1,5 @@
 //elementos de la serie fibonacci
 
-
 #include<iostream>
 
 using namespace std;
