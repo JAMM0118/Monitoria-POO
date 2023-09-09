@@ -1,0 +1,35 @@
+# Archivos ejecutables
+*.out
+*.app
+*.exe
+
+# Archivos objeto y bibliotecas compiladas
+*.o
+*.a
+*.so
+
+# Archivos generados por CMake
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+Testing/
+
+# Archivos generados por IDEs como Visual Studio Code
+.vscode/
+
+# Archivos generados por el sistema operativo
+Thumbs.db
+.DS_Store
+
+# Archivos de respaldo y temporales
+*~
+*.swp
+
+# Archivos de configuración de compilación
+compile_commands.json
+
+# Archivos de registro y salida
+*.log
+
+# Carpeta de construcción
+build/

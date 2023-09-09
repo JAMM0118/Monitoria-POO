@@ -16,9 +16,14 @@ int main(){
     numeroAletorio = 5000 + rand() % (15000 -5000);
 
     cout<<"Ingrese el precio del producto: "; cin>>precio;
+    
     if(precio >= 5000 && precio <= numeroAletorio){
         cout<<"El precio del producto esta en el rango de 5000 -10000: "<<endl;
 
+    }
+    
+    else if(precio >= 5000 && precio >= numeroAletorio){
+        cout<<"El precio del producto sobrepaso el rango entre 5000 - 10000: "<<endl;
     }
 
     system("PAUSE");
