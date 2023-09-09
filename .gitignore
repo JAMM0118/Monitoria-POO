@@ -1,35 +1,47 @@
-# Archivos ejecutables
-*.out
-*.app
-*.exe
+# Compilados
+*.suo
+*.user
+*.sdf
+*.db
+*.db-shm
+*.db-wal
+*.userprefs
+*.sln.docstates
 
-# Archivos objeto y bibliotecas compiladas
-*.o
-*.a
-*.so
-
-# Archivos generados por CMake
+# CMake
 CMakeFiles/
 CMakeCache.txt
 CMakeScripts/
 Testing/
 
-# Archivos generados por IDEs como Visual Studio Code
-.vscode/
+# Compilación de Visual Studio
+*.sdf
+*.opensdf
+*.VC.db
 
-# Archivos generados por el sistema operativo
-Thumbs.db
-.DS_Store
+# Compilación de Code::Blocks
+*.depend
+
+# Ejecutables
+bin/
+*.exe
+*.out
+*.app
+
+# Bibliotecas compartidas
+lib/
+*.so
+*.dll
+*.dylib
+
+# Archivos de configuración locales
+*.local
+
+# Archivos de registro
+*.log
 
 # Archivos de respaldo y temporales
 *~
-*.swp
-
-# Archivos de configuración de compilación
-compile_commands.json
-
-# Archivos de registro y salida
-*.log
-
-# Carpeta de construcción
-build/
+\#*\#
+*.bak
+*.tmp
