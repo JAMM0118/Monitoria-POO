@@ -1,6 +1,9 @@
 # Visual Studio Code
 .vscode/
 
+# Carpeta de salida (output)
+output/
+
 # CMake build directory
 build/
 
@@ -8,6 +11,7 @@ build/
 *.o
 *.a
 *.so
+*.run
 
 # Executable files
 *.exe
