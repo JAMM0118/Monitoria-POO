@@ -1,47 +1,21 @@
-# Compilados
-*.suo
-*.user
-*.sdf
-*.db
-*.db-shm
-*.db-wal
-*.userprefs
-*.sln.docstates
+# Visual Studio Code
+.vscode/
 
-# CMake
-CMakeFiles/
-CMakeCache.txt
-CMakeScripts/
-Testing/
+# CMake build directory
+build/
 
-# Compilación de Visual Studio
-*.sdf
-*.opensdf
-*.VC.db
+# Compiled object files and libraries
+*.o
+*.a
+*.so
 
-# Compilación de Code::Blocks
-*.depend
-
-# Ejecutables
-bin/
+# Executable files
 *.exe
 *.out
-*.app
 
-# Bibliotecas compartidas
-lib/
-*.so
+# Compiled dynamic libraries
 *.dll
 *.dylib
 
-# Archivos de configuración locales
-*.local
-
-# Archivos de registro
-*.log
-
-# Archivos de respaldo y temporales
-*~
-\#*\#
-*.bak
-*.tmp
+# Mac OS X directory attributes
+.DS_Store
