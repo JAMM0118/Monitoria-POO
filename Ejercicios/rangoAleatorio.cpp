@@ -1,5 +1,5 @@
-//Un programa donde dependiendo de un rango con la de numeros aleatoria, nos determine o asigne 
-// el valor de un precio
+//Un programa donde dependiendo de un rango de numeros aleatorios, nos determine 
+// si el valor de un precio esta en el rango de 5000 - 10000 o si sobrepasa el rango
 
 #include<iostream>
 #include<time.h>
