@@ -3,6 +3,8 @@
 
 using namespace std;
 
+// Usos de condicionales
+
 // AND == &&
 // OR == ||
 // NOT == !

@@ -3,6 +3,8 @@
 using namespace std;
 
 int main(){
+
+    // practiquemos un poco de logica de programacion
     int numero = 5;
     int x = 2;
     int y;

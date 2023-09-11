@@ -6,13 +6,13 @@ int main(){
     //hacer comentario
 /*
     if (condicion){
-
+            Bloque de codigo
         if( condicion){
-             
+             bloque de codigo
         }
         else{
             if (codicion){
-
+                bloque de codigo
             }
         }
 
