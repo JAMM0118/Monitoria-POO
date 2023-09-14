@@ -9,8 +9,9 @@ int main(){
     
     //creacion del arreglo
     int arreglo[n];
-    
 
+    // 1 | 2 | 3 | 4 | 5
+    
     // Almacenando datos en el arreglo
     for(int i=0; i<n; i++){
         cout<<"Digite un numero: "; cin>>arreglo[i];
@@ -22,7 +23,7 @@ int main(){
         cout<<"El numero "<<arreglo[j]<<" esta ubicado en la posicion ["<<j<<"]"<<endl;
     }
 
-
+    
     //funcion para no dejar cerrar el programa hasta despues de presionar una tecla
     getch();
 
