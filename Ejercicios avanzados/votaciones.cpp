@@ -35,7 +35,7 @@ int main(){
 
     cout<<"Digite la cantidad de cantidad cantidatos: ";
     cin>>cantidadCandidatos;
-
+ 
     for(int j=1; j<cantidadCandidatos+1; j++){
         cout<<"Digite el nombre del candidato # "<<j<<" : ";
         cin>>votaciones[0][j];
