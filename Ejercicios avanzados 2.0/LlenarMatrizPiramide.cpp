@@ -1,9 +1,9 @@
 /***
  * Llenar una matriz A[ ][ ] de tipo char de tamaño n x m, donde n y m son ingresados por el usuario y deben ser impares,
  *  de tal forma que al imprimir A[ ][ ] se visualice por pantalla una pirámide rellena.
-Por ejemplo; suponga que n = 3 y m = 5, entonces
+Por ejemplo; suponga que n = 3 y m = 5, entonces   n = n  m = (2n)-1
 
-          |   |   |  * |   |   |  
+          |   |   | *  |   |   |  
           |   | * |  * | * |   |
           | * | * |  * | * | * |
      | *  | * | * |  * | * | * | * |
