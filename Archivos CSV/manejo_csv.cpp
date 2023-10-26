@@ -5,7 +5,7 @@
 
 using namespace std;
 
-string nombre, apellido ,cedula ,edad;
+string nombre, apellido ,cedula,edad;
 string datos ,busqueda;
 
 void menu();
@@ -65,6 +65,7 @@ void ingresarDatos(){
         cout<<"Digite su cedula: ";
         getline(cin,cedula);
 
+        //ingresamos los datos al archivo csv
         documento<<nombre<<","<<apellido<<","<<edad<<","<<cedula<<endl;
         documento.close();
 
@@ -75,8 +76,7 @@ void ingresarDatos(){
 
 void actualizarDatos(){
     ifstream documento("prueba.csv",ios::in); //abrimos el archivo csv
-    
-    if(!documento){
+    if(!documento){ //verificamos si el archivo se abrio correctamente
         cout<<"Error al tratar de abrir el documento csv"<<endl;
     }else{
         vector<string>modificacion; //vector para almacenar los datos que no se van a modificar y los que si
@@ -226,7 +226,7 @@ void consultarDatos(){
 
         while(getline(documento,datos)){
 
-            stringstream registros(datos);
+            stringstream registros(datos); // Juan Carlos, Perez Cruz , 30 , 1
 
             getline(registros,nombre,',');
             getline(registros,apellido,',');
