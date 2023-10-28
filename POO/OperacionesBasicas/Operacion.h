@@ -8,8 +8,8 @@ using namespace std;
 class Operacion
 {
     public:
-        Operacion();
-        virtual ~Operacion();
+        Operacion(); // constructor
+        virtual ~Operacion(); //desctructor
 
         void setNumerosSuma(int a, int b);
         void setNumerosResta(int a, int b);

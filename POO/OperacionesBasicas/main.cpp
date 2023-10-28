@@ -19,6 +19,6 @@ int main()
 
     operacion.setNumerosOperacion(5,2,"/");
     cout<<"\nEl resultado de la operacion es: "<<operacion.getOperacion()<<endl;
-
+    
     return 0;
 }
