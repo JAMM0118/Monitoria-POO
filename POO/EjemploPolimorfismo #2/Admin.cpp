@@ -1,11 +1,20 @@
-#include "Perro.h"
+#include "Admin.h"
 
-Perro::Perro()
+Admin::Admin(string nombre_)
 {
-    //ctor
+   this->nombre = nombre_;
 }
 
-Perro::~Perro()
+Admin::~Admin()
 {
     //dtor
+}
+void Admin::decirNombre()
+{
+    cout << "Mi nombre es " << nombre << endl;
+}
+
+void Admin::hablar()
+{
+    cout << "Hola soy " << nombre <<" el admin" << endl;
 }

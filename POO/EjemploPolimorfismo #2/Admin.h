@@ -1,26 +1,21 @@
-#ifndef PERRO_H
-#define PERRO_H
-#include "Animal.h"
+#ifndef Admin_H
+#define Admin_H
+#include "Persona.h"
 #include <iostream>
 using namespace std;
 
-class Perro : public Animal
+class Admin : public Persona
 {
     public:
-        Perro();
-        virtual ~Perro();
+        Admin(string nombre_);
+        virtual ~Admin();
 
-        void hacersonido() override{
-            cout << 1 << endl;
-        }
-
-        void hablar() override{
-            cout << "Hola soy un perro" << endl;
-        }
-
+       
+        void decirNombre() override;
+        void hablar() override;
     protected:
 
     private:
 };
 
-#endif // PERRO_H
+#endif // Admin_H
