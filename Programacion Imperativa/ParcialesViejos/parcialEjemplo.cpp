@@ -116,20 +116,20 @@ void mostrarDistancias(string matriz[5][5]){
 
 }
 
-void mostrarPrecioViaticos(string matriz[4][2]){
+void mostrarPrecioViaticos(string matrizViaticos[4][2]){
 
-    matriz[0][0] = "Rango (Km)";
-    matriz[0][1] = "Precio Viaticos";
-    matriz[1][0] = "301-600";
-    matriz[1][1] = "200.000";
-    matriz[2][0] = "601 - 900";
-    matriz[2][1] = "400.000";
-    matriz[3][0] = "901 >";
-    matriz[3][1] = "800.000";
+    matrizViaticos[0][0] = "Rango (Km)";
+    matrizViaticos[0][1] = "Precio Viaticos";
+    matrizViaticos[1][0] = "301-600";
+    matrizViaticos[1][1] = "200.000";
+    matrizViaticos[2][0] = "601 - 900";
+    matrizViaticos[2][1] = "400.000";
+    matrizViaticos[3][0] = "901 >";
+    matrizViaticos[3][1] = "800.000";
 
     for(int i=0; i<4;i++){
         for(int j=0;j<2;j++){
-            cout<<setw(10)<<matriz[i][j]<<" ";
+            cout<<setw(10)<<matrizViaticos[i][j]<<" ";
         }
         cout<<"\n";
     }

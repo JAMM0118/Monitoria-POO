@@ -1,5 +1,5 @@
 #include <iostream>
-#include "CajeroAutomatico.h"
+#include "CajeroAutomaco.h"
 #include "CajeroAutomatico.cpp"
 
 using namespace std;
