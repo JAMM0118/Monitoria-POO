@@ -7,6 +7,7 @@ using namespace std;
 class CajeroAutomatico
 {
     public:
+        //constructor
         CajeroAutomatico();
         virtual ~CajeroAutomatico();
 
