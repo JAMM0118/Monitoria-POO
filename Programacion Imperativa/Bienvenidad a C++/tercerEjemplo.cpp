@@ -16,8 +16,8 @@ int main(){
 
     int contador = 1;
 
-    for (int i = 0; contador < 10; contador++, i++){
-
+    for (int i = 0; contador < 10; contador++){
+        i++;
         cout<<"El numero es: "<<i<<endl;
     }
 
